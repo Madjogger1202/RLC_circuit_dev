@@ -1,0 +1,102 @@
+(ExpressProject "RLC_circuit_dev"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 P001 (4234998)  [9/4/2024]-[01/01/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "..\rlc_circuit_dev")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\rlc_circuit_dev.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    ("Allegro Netlist Output Board File" ".\allegro\rlc_circuit_dev.brd"))
+  (Folder "Layout"
+    (File ".\allegro\rlc_circuit_dev.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\rlc_circuit_dev.brd")
+      (NetListPath "..\rlc_circuit_dev")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File ".\netlist.log"
+      (Type "Log File")
+      (LogFile "d:\github_dev\rlc_circuit_dev\netlist.log"))
+    (File ".\netrev.lst"
+      (Type "Log File")
+      (LogFile "d:\github_dev\rlc_circuit_dev\netrev.lst"))
+    (File ".\eco.txt"
+      (Type "Log File")
+      (LogFile "d:\github_dev\rlc_circuit_dev\eco.txt")))
+  (PartMRUSelector
+    (X_MOINTING_HOLE
+      (FullPartName "X_MOINTING_HOLE.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (L_0805
+      (FullPartName "L_0805.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C_0805
+      (FullPartName "C_0805.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (XW_SMA-EDGE-S
+      (FullPartName "XW_SMA-EDGE-S.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (R_0805
+      (FullPartName "R_0805.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Github_dev\RLC_circuit_dev\rlc_circuit_dev.dsn")
+      (Path "Design Resources"
+         "D:\Github_dev\RLC_circuit_dev\rlc_circuit_dev.dsn" "SCHEMATIC1")
+      (Select "Design Resources"
+         "D:\Github_dev\RLC_circuit_dev\rlc_circuit_dev.dsn" "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 508"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1255 24 549")
+        (Scroll "-124 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\GITHUB_DEV\RLC_CIRCUIT_DEV\RLC_CIRCUIT_DEV.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "P01_RC_Integrator")))
+  (LastUsedLibraryBrowseDirectory "D:\Github_dev\Cadence_library\symbols")
+  (MPSSessionName "vakva"))
